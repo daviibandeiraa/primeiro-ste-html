@@ -4,9 +4,6 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
-
 header{
     width: 100%;
     height: 100%;
@@ -20,6 +17,7 @@ a{
 }
 
 header .menu{
+    position: fixed;
     width: 100%;
     display: flex;
     align-items: center;
@@ -40,7 +38,7 @@ header .menu a{
   padding: 8px 12px;
   border-radius: 3px;
   transition: 200ms;
-
+  margin-left: px;
   
 }
 
@@ -49,35 +47,25 @@ header .menu .ativo, header .menu a:hover{
     background-color: #996830;
 }
 
-h1 .topico{
-    text-align: center;
+.principal{
+    height: 100vh;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
-.corpo1 img .foto1{
-    position: absolute;
- left: 0px;
- right: 0px;
- top: 0px;
- bottom: 0px;
+.principal h2{
+    color: black;
+    font-size: 45px;
 
- background: url(.jpg);
-}
-.corpo1 img .marcadagua{
-    box-sizing: border-box;
-
-position: absolute;
-width: 120px;
-height: 120px;
-left: 112px;
-top: -64px;
-
-background: #2C2C2C;
-
-border: 4px solid #FFFFFF;
-border-radius: 100px;
 }
 
+.principal .links a{
+    color: black;
+    padding: 10px 18px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-top: 20px;
 
-
-
+}
