@@ -49,33 +49,23 @@ header .menu .ativo, header .menu a:hover{
     background-color: #996830;
 }
 
-h1 .topico{
+h1.topico{
+    text-align: center;
+    justify-content: center;
+}
+
+p.subtopic{
     text-align: center;
     justify-content: center;
 }
 
 .corpo1 img .foto1{
-    position: absolute;
- left: 0px;
- right: 0px;
- top: 0px;
- bottom: 0px;
 
- background: url(.jpg);
 }
 .corpo1 img .marcadagua{
-    box-sizing: border-box;
-
-position: absolute;
-width: 120px;
-height: 120px;
-left: 112px;
-top: -64px;
-
-background: #2C2C2C;
-
-border: 4px solid #FFFFFF;
-border-radius: 100px;
+    margin-top: 364px;
+    width: 120px;
+    height: 120px;
 }
 
 
