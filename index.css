@@ -50,23 +50,92 @@ header .menu .ativo, header .menu a:hover{
 }
 
 h1.topico{
-    text-align: center;
-    justify-content: center;
+     text-align: center;
+     justify-content: center;
+     font-family: 'Playfair Display';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 72px;
+     line-height: 96px;
+     display: flex;
+     align-items: center;
+     text-align: center;  
+     letter-spacing: -0.025em;
+     font-feature-settings: 'pnum'  on, 'lnum' on, 'liga' off;
+     color: #2C2C2C;
+   
+
 }
 
 p.subtopic{
     text-align: center;
     justify-content: center;
+     width: 800px;
+     height: 64px;
+     color: #444444;
+     font-family: 'Outfit';
+     font-style: normal;
+     font-weight: 300;
+     font-size: 20px;
+      line-height: 32px;
+      margin-left: 320px;
+      margin-right: 320px;
+
+
+    
+     align-items: center;
+     text-align: center;
+     font-feature-settings: 'liga' off;
+      flex: none;
+      border: 1;
+      flex-grow: 0;
 }
 
-.corpo1 img .foto1{
+
+.foto1{
+    margin-top: 170px;
 
 }
-.corpo1 img .marcadagua{
-    margin-top: 364px;
+ .marcadagua{
+ 
+    box-sizing: border-box;
+    position: absolute;
+    border: 4px solid #FFFFFF;
+    border-radius: 100px;
+    margin-top: 110px;
+    margin-left: 112px;
     width: 120px;
     height: 120px;
+    
 }
+
+.line{
+    width: 64px;
+    margin-top: 204px;
+    margin-left: 112px;
+    margin-right: 1264px;
+    display: flex;
+    color: #996830;
+}
+
+.sobrenost{
+    width: 89px;
+    color: #996830;
+    
+}
+
+.topico2{
+    margin-top: 24px;
+    margin-left: 112px;
+    
+
+}
+
+.foto2{
+    margin-left: 736px;
+    margin-top: 128px;
+}
+
 
 
 
