@@ -133,8 +133,8 @@ p.subtopic{
     
 }
 .foto2{
-    margin-left: 736px;
-    margin-top: 128px;
+    margin-left: 40px;
+    margin-top: px;
     
 }
 
@@ -159,7 +159,7 @@ p.subtopic{
     line-height: 32px;
     margin-top: 24px;
     margin-left: 112px;
-    display: flex;
+   
 
 }
 
@@ -171,8 +171,54 @@ p.subtopic{
      font-weight: 300;
      margin-top: 24px;
      margin-left: 112px;
-     display: flex;
+    
+     
+     
 }
+
+.topicos{
+    display: flex;
+}
+
+.numeros{
+    text-align: center;
+}
+
+ .numero1{
+    margin-top: 194px;
+   
+    width: 100px;
+
+ }
+
+ .texto1{
+    width: 100px;
+  
+
+ }
+
+ .texto2{
+    width: 100px;
+    
+
+ }
+
+ .numero2{
+    width: 100px;
+    
+
+ }
+
+ .numero3{
+    width: 100px;
+
+ }
+
+ .texto3{
+    width: 100px;
+ }
+
+ 
 
 
 
