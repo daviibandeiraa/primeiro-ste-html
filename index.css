@@ -180,45 +180,15 @@ p.subtopic{
     display: flex;
 }
 
-.numeros{
-    text-align: center;
+.detalhes{
+
 }
-
- .numero1{
-    margin-top: 194px;
-   
-    width: 100px;
-
- }
-
- .texto1{
-    width: 100px;
-  
-
- }
-
- .texto2{
-    width: 100px;
-    
-
- }
-
- .numero2{
-    width: 100px;
-    
-
- }
-
- .numero3{
-    width: 100px;
-
- }
-
- .texto3{
-    width: 100px;
- }
-
  
+.img1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 
 
 
